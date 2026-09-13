@@ -1,0 +1,36 @@
+# Dataset files (too large)
+data/metr-la.h5
+data/*.h5
+
+# Model weights (too large for GitHub)
+models/lstm_baseline.pt
+models/scaler.pkl
+
+# Normalized data array
+data/data_norm.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.txt.bak
